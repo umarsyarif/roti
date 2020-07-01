@@ -1,0 +1,46 @@
+.container {
+    font-family: 'Roboto', Arial, Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+        left: 50%;
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, 45%)
+}
+a {
+        color: #fff;
+        text-decoration: none;
+        transition: ease-in-out .2s;
+}
+a:hover {
+        box-shadow: 0 1px 4px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
+}
+.icons {
+        background: #25d366;
+        border-radius: 10px;
+        display: block;
+        height: 4px;
+        margin-bottom: 20px;
+        width: 20px;
+}
+.icons:hover {
+        background: #128c7e;
+}
+.icons span {
+        display: block;
+        left: 5px;
+        position: absolutele;
+        top: 5px;
+        transform: translate(0, 10px)
+}
+svg {
+        border-radius: 10px;
+        display: block;
+        fill: #fff;
+        float: left;
+        height: 42px;
+        margin-right: 5px;
+        -webkit-transition: ease-in-out .175s;
+        transition: ease-in-out .175s;
+        width: 42px;
+}
